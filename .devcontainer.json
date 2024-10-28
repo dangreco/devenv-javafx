@@ -1,0 +1,15 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mkhl.direnv",
+        "jnoortheen.nix-ide",
+        "vscjava.vscode-java-pack",
+        "skellock.just"
+      ]
+    }
+  },
+  "image": "ghcr.io/cachix/devenv:latest",
+  "overrideCommand": false,
+  "updateContentCommand": "devenv test"
+}
